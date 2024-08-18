@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh; /* Makes the body take up the full height of the viewport */
+    margin: 0; /* Removes any default margin */
+    background-color: #526D82;
+}
+
+header, footer {
+    color: #DDE6ED;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+    background-color: #27374D;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     /* Allows the main content to grow and take up available space */
+    gap: 20px; /* Adds space between the buttons */
+}
+
+button {
+    background-color: #222120;
+    border: none;
+    color: white;
+    padding: 60px 120px; /* Keeps the larger padding for visibility */
+    text-align: center;
+    font-size: 62px; /* Keeps the larger font size for visibility */
+    opacity: 0.8;
+    transition: 0.3s;
+    cursor: pointer;
+    border-radius: 15px; /* Slightly larger border-radius */
+}
+
+button:hover {
+    opacity: 1;
+}
+
+
+body {
+    background-color: #1b1b1b;
+    color: #e0e0e0;
+}
+
+header, footer {
+    background-color: #2c2c2c;
+    color: #e0e0e0;
+}
+
+button {
+    background-color: #2c2c2c;
+    border: 2px solid #3a3a3a;
+    color: #e0e0e0;
+}
+
+button:hover {
+    background-color: #4a4a4a;
+    color: #ff9800;
+}
+
+h1, p {
+    color: #e0e0e0;
+}
+
+a {
+    color: #ff9800;
+}
+
+a:hover {
+    color: #e0e0e0;
+}
